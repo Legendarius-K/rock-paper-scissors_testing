@@ -18,7 +18,7 @@ const ChooseName = ({ updateName }:ChooseNameProps) => {
     return (
         <div className="">
             <label htmlFor="name">Enter your name</label>
-            <input onChange={handleChange} className="mx-2" placeholder="Enter name" type="text" id="name" />
+            <input onChange={handleChange} className="mx-2" placeholder="Enter your name here" type="text" id="name" />
             <button onClick={handleClick} className="bg-blue-500 py-1 px-3 rounded text-white font-bold">Add name</button>
         </div>
     )
