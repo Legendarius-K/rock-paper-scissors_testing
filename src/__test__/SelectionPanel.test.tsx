@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import SelectionPanel from './SelectionPanel';
+import SelectionPanel from '@/components/SelectionPanel';
 
 describe("Check that all buttons renders correctly", () => {
     test('renders specific selection button', () => {
